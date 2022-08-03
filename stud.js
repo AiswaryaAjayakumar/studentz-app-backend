@@ -31,7 +31,7 @@ app.post('/profile',(req,res)=>{
 
 
 })
-app.listen(process.env.POST||3002,()=>{
+app.listen(process.env.PORT||3002,()=>{
 
     console.log("Server started at http://localhost:3002/")
 })
